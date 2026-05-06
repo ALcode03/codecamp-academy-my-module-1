@@ -145,12 +145,12 @@ Objects can contain other objects.
 const company = {
     name: "TechCorp",
     address: {
-        city: "Cali",
-        country: "Colombia"
+        city: "Paris",
+        country: "France"
     }
 };
 
-console.log(company.address.city); // Cali
+console.log(company.address.city); // Paris
 ```
 
 ---
