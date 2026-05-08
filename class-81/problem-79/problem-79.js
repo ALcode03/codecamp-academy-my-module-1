@@ -48,7 +48,7 @@ const library = [
 
 // 1. Display all books
 const displayBooks = () => {
-    library.forEach( book => {
+    library.forEach(book => {
         console.log(`${book.title} - ${book.author}`);
     });
 };
@@ -61,7 +61,7 @@ const getAvailableBooks = () => {
 // 3. Find book by title
 const findBookByTitle = (title) => {
     return library.find(book => 
-        book.title.toLocaleLowerCase() === title.toLocaleLowerCase()
+        book.title.toLowerCase() === title.toLowerCase()
     );
 };
 
