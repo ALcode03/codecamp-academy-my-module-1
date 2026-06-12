@@ -1,5 +1,5 @@
 /*
-    Author: Cristian Camilo Cortes Ortiz
+    Author:  ALEXANDRA KEDJU <ALcode03>
     Solution: Managing a Shopping Cart with Arrays
 */
 
